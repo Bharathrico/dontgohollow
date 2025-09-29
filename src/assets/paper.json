@@ -1,0 +1,118 @@
+[
+  {
+    "Topic": "Abstract",
+    "Achievement":"images/Badges/Abstract.png",
+    "content": [
+     {
+        "text": "Entertainment videogames have been recognized for their potential therapeutic benefits, but there is a need for more in-depth, game-specific explorations of the game features that could contribute to such benefits. This study examines how players of Dark Souls describe the game as helping them cope with depression. We conducted a thematic analysis of Reddit discussions where players narrate their mental health experiences with the game, using AI tools to assist in identifying relevant data for a purposive sample. Our findings suggest that Dark Souls could support players’ mental health, for example, by (1) cultivating resilience and perseverance through its challenging gameplay, (2) triggering existential reflections through symbolic representations of depression, and (3) enabling supportive online communities and interactions. Our findings offer rich, player-centered insights into the perceived mental health benefits of commercial videogames, highlighting their potential to transcend entertainment and inform the design of engaging digital mental health tools."
+      }  
+      ]
+  },
+  {
+    "Topic": "Introduction",
+    "Achievement":"images/Badges/Intro.png",
+    "content": [
+    {
+      "text": "In response to the growing mental health crisis, digital mental health interventions are being actively developed, and game-based approaches are deemed promising due to their capacity to engage users [68]. Concurrently, commercial entertainment videogames are being recognized for affording mental health benefits to players [11, 31, 69, 87]. For example, commercial videogames have been shown to alleviate symptoms of depression and anxiety [61, 69]; in fact, many individuals with a desire to use game-based interventions for depression might already be actively using videogames as a way to manage their depressive symptoms [69]. However, further research is required to understand such self-help usage of commercial entertainment videogames [69]. Positive effects of recreational gaming can include cognitive benefits, such as attention control and cognitive flexibility [61], connection with other people, alleviating loneliness and fostering meaningful relationships [68], and a broad range of eudaimonic responses, including appreciation, meaningfulness, and self-reflection [25]. Despite a growing body of research on the impact of videogames on well-being, further work is needed to understand the theoretical foundations and potential mechanisms of both positive and negative effects of commercial games on mental health [31, 61]. It has been suggested that future research could further examine the roles of game aspects such as narrative, gameplay structures, and multiplayer for players’ mental health benefits [11], and particularly how different combinations of game aspects could support players in coping with difficult life experiences [76]. Moreover, the therapeutic potential of commercial videogames among different player populations remains unclear [61, 88]. Hence, there is a need for more in-depth analysis of what features could make particular videogames effective at affording players mental health benefits [76, 87]. A deeper understanding of the potential mental health benefits of recreational gaming could help further recognize how videogames can transcend entertainment and leverage interactive technologies for the development of engaging, effective, and accessible digital mental health support [69]."
+    },
+    {
+      "text": "To explore the interplay between gaming and self-reported narratives of mental health benefits, we conducted a thematic analysis [14, 15] of players’ experiences with the popular videogame Dark Souls [38], focusing on how players described the game as helping them manage and cope with what they termed “depression”. Importantly, we used “depression” as a keyword to identify relevant Reddit discussion threads, thereby examining players’ self-described mental health experiences with the game. Although these self-disclosed player narratives frequently referenced clinically diagnosed depression, we emphasize that the focus of our study was on the players’ own, self-reported accounts of their experiences. Consequently, our study should not be interpreted as assessing or affirming any clinical criteria for depressive disorders; in the context of our findings, the use of the word “depression” should be understood in a colloquial, self-identified sense rather than as a clinical mental disorder. The apparent association between Dark Souls and mental health benefits has been widely recognized in popular discourse [e.g., 24, 46, 50]. However, to our knowledge, this is the first in-depth, peer-reviewed study on the topic. Notorious for its extreme difficulty, the acclaimed Dark Souls series has been associated with gameplay experiences of repeated failure and avatar-death, which can potentially lead to more positive and meaningful feelings of achievement [86]. In previous studies, the game series has been mentioned by some participants in relation to personal growth [56] and empowering experiences [101]. Thus, Dark Souls serves as a compelling case for exploring how various aspects of its game design, such as challenging gameplay structure and narrative elements, might contribute to players’ well-being by affording experiences that are deemed meaningful, empowering, transformative, or even therapeutic. Additionally, online forums discussions can provide a valuable source of naturalistic, player-centric data [51], especially regarding players’ mental health experiences [87]. To support our research process, we employed artificial intelligence (AI) tools to help navigate our dataset and compile a purposive sample that was rich, dense, and diverse in meaning, suitable for an in-depth, contextually sensitive thematic analysis."
+    },
+    {
+      "text": "As a result, we developed four overarching themes that characterize how and why players perceived the game as helpful (or at times unhelpful) for their mental health. Through these four themes, we depict how (1) Dark Souls could cultivate resilience and perseverance translating into players’ real lives; (2) the game was seen and felt as a metaphor for players’ personal struggles with depression, and with mental health challenges and existential issues more broadly, offering deep philosophical and emotional resonance; (3) the game’s online community fostered emotional support and a sense of belonging through shared symbolic meanings and encouragement; and (4) players perceived the game as a form of self-care, describing it as having therapeutic value in helping them cope with real-life challenges. The contributions of the work are threefold:"
+    },
+    {"points": [
+    "We demonstrate how the interplay of game design elements in Dark Souls—such as its gameplay, narrative, and cooperative multiplayer—may contribute to players’ perceived mental health benefits. For example, our findings suggest that the extensively challenging yet rewarding nature of the gameplay, combined with its narrative context, could foster coping skills, empowerment, and a sense of self-efficacy that extend far beyond the gameplay. Further we found that the game was experienced as a reflective, metaphorical mirror for players’ own struggles with mental health and existential issues, fostering deep emotional and philosophical resonance and prompting meaningful, transformative reflection. Taken as a whole, our findings underscore the in-game concept of ‘hollowing’ as a defining feature of Dark Souls, weaving together its various game design elements and contributing holistically to players’ experiences of mental health benefits."
+    ,
+    "We highlight the potential of online communities and user interactions in digital mental health support. Our findings imply that both the online gaming community (r/darksouls in Reddit) and the game’s cooperative dynamics contributed to the emotional well-being and mental health support of players. This idea seemed to be echoed in recurring references to in-game phrases “Don’t You Dare Go Hollow” and “Praise the Sun”, which appeared to serve as communal catchphrases representing shared symbols of perseverance, hopefulness, encouragement, and a sense of belonging."
+    ,
+    "We offer insights into players’ perceptions of the self-help usage of commercial videogames: we found that many engaged with Dark Souls not merely for entertainment but as a form of self-care, using the game to distract from, alleviate, or process real-world struggles. While many players associated the game with therapeutic benefits, some also expressed critique towards the idea: a common sentiment among users was that whereas games are not a replacement for therapy, they can serve to supplement it."
+  ]}
+    ]
+  },
+  {
+    "Topic": "Related Work",
+    "Achievement":"images/Badges/Related.png",
+    "content":[],
+    "subtopics": [
+      {
+        "Subtopic": "Dark Souls and Challenge",
+        "content": [
+          {
+              "text": "Dark Souls [38], developed by FromSoftware, is a seminal action role-playing game set in the dark fantasy world of Lordan. The game is known for its interconnected level design, punishing combat mechanics, and cryptic storytelling. In Dark Souls, the player explores a bleak, hostile, maze-like game world while encountering various traps and enemies, occasionally having to battle more formidable bosses in order to progress to new game areas. Throughout the gameplay, the player collects ‘souls’ serving both as in-game currency and experience points. Avatar death is a core mechanic of the game; upon death, all collected souls are dropped and the player’s character is returned to a previous checkpoint, or ‘bonfire’, from where the player must attempt to retrieve the souls without dying again, hence losing their progress."
+          },
+          {
+              "text": "Dark Souls, along with its remastered version [41], and two sequels (Dark Souls II [39] and Dark Souls III [39]), forms the Dark Souls trilogy, which is a part of a broader group of games by FromSoftware often referred to as “Soulsborne” titles. This label includes related games such as Demon’s Souls [37], Bloodborne [40], Sekiro: Shadows Die Twice [42], and Elden Ring [43], which share notable similarities with one another. One of the unifying characteristics is the challenging and unforgiving nature of their gameplay, which typically consists of repeated and frequent failure and death of the player-character. The games are critically and commercially widely successful, and they have inspired a so-called “Soulslike” subgenre of action role-playing games known for their high difficulty level."
+          },
+          {
+              "text": "Prior research surrounding Dark Souls has typically focused on this aspect of challenge. Conventionally, an optimal challenge-skill balance of a game has been considered one where the difficulty of a game is neither too high nor too low, so that the gameplay does not result in experiences of anxiety or boredom [86]. A survey study on Dark Souls III examined the question as to why players enjoy such a game that is defined by excessively challenging gameplay that conflicts with the conventional idea of an appropriate challenge-skill balance [86]. The study revealed that players’ reports of high difficulty and frequent failures were associated with positive player experiences and enjoyment [86]. The study found positive experiences associated with negative events, such as avatar death and struggle, were characterized by moments of achievement and victory, as well as by learning and improvement [86]. To explain the appeal of uncertain success in videogames, such as in Soulslike games, it has been proposed that players are motivated by the dynamic process of reducing the uncertainty of success [30]. This view posits that players find enjoyment in instances where they perform better than they expected, and in the case of Soulslike games, the process is characterized as an iterative process of error reduction where players incrementally learn from their failures and finally reach a rewarding successful outcome [30]."
+          }
+        ]
+      },
+      {
+        "Subtopic": "Gaming, Well-Being, and Eudaimonia",
+        "content": [
+           {
+            "text": "However, related to potential mental health benefits, little has been said regarding Dark Souls or Soulslike games particularly. In a survey study on the role of gaming during difficult life experiences [56], Dark Souls was mentioned by a couple of participants; “Dark Souls kinda helped me process some of the stuff going on in my life for some reason”, one participant reported [56, p.6]. On a general level, participants reported that videogames helped them cope by (1) offering respite from stress and trauma, (2) aiding in processing emotions, (3) fostering social connection, (4) serving as a catalyst for personal growth, and (5) providing a lifeline during periods severe existential doubt [56]. On a similar note, players have been found to sometimes re-frame their recreational gaming experiences as a form of self-care [96]; such self-care was associated with videogames’ capacity to (1) provide spaces for meaningful self-reflection and identity exploration, (2) prompt reflection on broader life issues, and (3) offer temporary relief or escapism from real-life problems [96]."
+          },
+          {
+            "text": "A recent exploratory study illustrated more broadly how specific aspects of videogames might support players in a range of coping strategies during difficult life experiences [76]. Challenge-related aspects were associated with feelings of mastery and competence, as well as mental distraction, while narrative elements were linked to meaning-making and reassessment of life experiences [76]. Social features, like multiplayer, were connected to emotional support and a sense of belonging [76]. In contrast, problem-focused coping—using games to directly address and find solutions to distressing life experiences—was found to be rare, highlighting an opportunity to explore how games might facilitate this form of coping [76]. Further, the study highlighted the need for deeper investigations into the features that make certain games effective at supporting players in coping, and into how various game aspects may interact to produce such an effect [76]. Moreover, it remains unclear how and why players engage with games that resemble their real-life experiences, and how such gameplay experiences might foster reflection, resonance, and meaning-making that support players during challenging times [76]."
+          },
+          {
+            "text": "In a survey study on empowering videogames experiences, the Dark Souls series was mentioned by several participants [101]. Empowerment is concept that has been broadly associated with perceived control, self-efficacy, and competence [106]. One identified type of empowering videogame experience involved overcoming considerable struggle, followed by success, resulting in relief and sense of achievement [101]. Participants also described how their in-game achievements, beyond feeling rewarding in the moment, led to positive real-life effects; for instance, one participant credited Dark Souls III with improving their mental health and confidence [101]. Another participant mentioned how they appreciated their seemingly disempowering experiences of failure in Elden Ring, as these experiences were seen as aligning with the game’s intended message [101]. Similarly, cases where participants perceived the game as personally relatable or as reflecting some aspects of their own identity were often deemed as disempowering but nevertheless associated with positive player experiences [101]. However, it remained unclear how to effectively foster such positive experiences of disempowerment [101]."
+          },
+          {
+            "text": "More generally, the role of emotionally complex or negatively valenced experiences in fostering positive player outcomes has garnered increasing attention, particularly in relation to eudaimonic gameplay [25, 26]. The overarching concept of eudaimonic gameplay encompasses various ways in which gaming can transcend mere hedonistic enjoyment, evoking complex emotional and cognitive responses that promote players’ psychosocial well-being [26]. Such experiences are linked to notions of meaningfulness, appreciation, reflection, emotional challenge, and personal growth [26]. For instance, reflective and transformative gameplay experiences in narratively rich games have been associated with enhanced emotional well-being and a deeper understanding of mental health issues such as depression [102]. However, it has remained unclear how often players may experience deeper, transformative reflections that extend beyond the gameplay context [73, 102, 103]. Notably, engaging in meaning-making processes in itself—similarly to self-reflection [73]—has been deemed an enriching and meaningful activity for players, relating to the self-care potential of gaming [96]."
+          },
+          {
+            "text": "Eudaimonic gameplay experiences are often associated with moments of emotional challenge [22], involving affective engagement with game aspect narrative, moral choices, or character interactions [12, 23, 26], as opposed to more physical, performative challenges [28]. Related to eudaimonic outcomes, some players have been found to purposefully seek out gameplay experiences that are difficult to comprehend or deal with emotionally as a path to self-improvement and personal growth [23]. Since eudaimonic outcomes often seem to demand heightened affective and cognitive effort from the individual, it has been suggested that overly interactive or demanding gameplay may hinder such experiences [26]. While few studies have examined how varying levels of interactivity may impact eudaimonic gameplay experiences [26], previous work suggests that in-game choices that have social, moral, or consequential characteristics are perceived by players as more meaningful, with such choices being linked to greater appreciation [57]. However, the role of mechanically challenging gameplay in fostering perceptions of meaningfulness and other eudaimonic outcomes remains unclear."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Topic": "Conclusion",
+    "Achievement":"images/Badges/Conclusion.png",
+    "content": [
+      {
+        "text": "Dark Souls supports mental health by fostering resilience, metaphorical self-reflection, community belonging, and self-care."
+      }
+    ],
+    "subtopics": [
+      {
+        "Subtopic": "Implications",
+        "content": [
+          {
+            "text": "Videogames can offer more than entertainment, serving as valuable digital mental health tools."
+          },
+          {
+            "quote": "This study highlights the importance of gameplay, narrative, and community integration in gaming interventions."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Topic": "Reference",
+    "Achievement":"images/Badges/Results.png",
+    "content": [
+      {
+        "text": "Dark Souls supports mental health by fostering resilience, metaphorical self-reflection, community belonging, and self-care."
+      }
+    ],
+    "subtopics": [
+      {
+        "Subtopic": "Implications",
+        "content": [
+          {
+            "text": "Videogames can offer more than entertainment, serving as valuable digital mental health tools."
+          },
+          {
+            "quote": "This study highlights the importance of gameplay, narrative, and community integration in gaming interventions."
+          }
+        ]
+      }
+    ]
+  }
+]
