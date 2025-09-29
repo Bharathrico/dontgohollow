@@ -4,7 +4,11 @@ import useMainStore from '../store/useMainStore';
 
 const ContentBlock = ({ block }) => {
   if (block.text) {
-    return <p>{block.text}</p>;
+    return (
+    <>
+      {block.title&&<h3>{block.title}</h3>}
+      <p>{block.text}</p>
+    </>);
   }
 
   if (block.quote) {
@@ -18,7 +22,7 @@ const ContentBlock = ({ block }) => {
           {block.table.map((row, rowIndex) => (
             <tr key={rowIndex}>
               {row.map((cell, cellIndex) => (
-                <td key={cellIndex}>{cell}</td>
+                <td style={{fontWeight:rowIndex==0?500:300}} key={cellIndex}>{cell}</td>
               ))}
             </tr>
           ))}
@@ -28,8 +32,8 @@ const ContentBlock = ({ block }) => {
   }
    if (block.image) {
     return (
-      <div style={{ marginBottom: '10px' }}>
-        <img src={block.image.url} alt={block.image.description} style={{ maxWidth: '100%' }} />
+      <div style={{ marginBottom: '10px', marginTop:"40px" }}>
+        <img src={block.image.url} alt={block.image.alt} style={{ maxWidth: '100%' }} />
         <p><i>{block.image.description}</i></p>
       </div>
     );
@@ -48,24 +52,26 @@ const ContentBlock = ({ block }) => {
   return null;
 };
 
-const Subtopic = ({ subtopic }) => (
+const Subtopic = ({ section }) => (
   <div>
-    <h2>{subtopic.Subtopic}</h2>
-    {subtopic.content.map((block, idx) => (
+    <h2>{section.subtopic}</h2>
+    {section.content.map((block, idx) => (
       <ContentBlock block={block} key={idx} />
     ))}
   </div>
 );
 
-const Topic = ({ topic }) => (
+const Topic = ({ section }) => (
   <div style={{ marginBottom: 30 }}>
-    <h1>{topic.Topic}</h1>
-    {topic.content.map((block, idx) => (
+    <h1>{section.topic}</h1>
+    {section.content.map((block, idx) => (
       <ContentBlock block={block} key={idx} />
     ))}
-    {topic.subtopics && topic.subtopics.map((subtopic, idx) => (
-      <Subtopic subtopic={subtopic} key={idx} />
-    ))}
+    {section.subtopics && section.subtopics.map((subtopic, idx) => {
+      console.log(subtopic.content)
+      return (
+      <Subtopic section={subtopic} key={idx} />
+    )})}
   </div>
 );
 
@@ -77,7 +83,7 @@ export default function Content() {
 
   return (
     <div style={{ padding: 20 }} key={selectedIndex}>
-        <Topic topic={paper[selectedIndex]} /> 
+        <Topic section={paper[selectedIndex]} /> 
         <div
           style={{            
             display:"flex",
@@ -92,14 +98,14 @@ export default function Content() {
                                                     setSelectedIndex(selectedIndex-1);}}}>Previous</div>
           <div className="next navbutton" style={{opacity: selectedIndex<(paper.length-1) ? 1 : 0.4,}} onClick={() => {if(selectedIndex<(paper.length-1)){window.scrollTo(0,0);
                                                 setSelectedIndex(selectedIndex+1);
-                                                if(!unlockedAchievements.has(paper[selectedIndex].Topic))
+                                                if(!unlockedAchievements.has(paper[selectedIndex].topic))
                                                 {
-                                                  increaseAchievement(paper[selectedIndex].Topic)
+                                                  increaseAchievement(paper[selectedIndex].topic)
                                                 }
                                               }
                                                 else if(selectedIndex<(paper.length-1))
                                                 {
-                                                  increaseAchievement(paper[selectedIndex].Topic)
+                                                  increaseAchievement(paper[selectedIndex].topic)
                                                 }}}>Next</div>
         </div>
      </div>

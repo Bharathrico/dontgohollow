@@ -1,58 +1,59 @@
 [
   {
-    "Topic": "Abstract",
-    "Achievement":"images/Badges/Abstract.png",
+    "topic": "Abstract",
+    "achievement": "images/Badges/Abstract.png",
     "content": [
-     {
+      {
         "text": "Entertainment videogames have been recognized for their potential therapeutic benefits, but there is a need for more in-depth, game-specific explorations of the game features that could contribute to such benefits. This study examines how players of Dark Souls describe the game as helping them cope with depression. We conducted a thematic analysis of Reddit discussions where players narrate their mental health experiences with the game, using AI tools to assist in identifying relevant data for a purposive sample. Our findings suggest that Dark Souls could support players’ mental health, for example, by (1) cultivating resilience and perseverance through its challenging gameplay, (2) triggering existential reflections through symbolic representations of depression, and (3) enabling supportive online communities and interactions. Our findings offer rich, player-centered insights into the perceived mental health benefits of commercial videogames, highlighting their potential to transcend entertainment and inform the design of engaging digital mental health tools."
-      }  
-      ]
-  },
-  {
-    "Topic": "Introduction",
-    "Achievement":"images/Badges/Intro.png",
-    "content": [
-    {
-      "text": "In response to the growing mental health crisis, digital mental health interventions are being actively developed, and game-based approaches are deemed promising due to their capacity to engage users [68]. Concurrently, commercial entertainment videogames are being recognized for affording mental health benefits to players [11, 31, 69, 87]. For example, commercial videogames have been shown to alleviate symptoms of depression and anxiety [61, 69]; in fact, many individuals with a desire to use game-based interventions for depression might already be actively using videogames as a way to manage their depressive symptoms [69]. However, further research is required to understand such self-help usage of commercial entertainment videogames [69]. Positive effects of recreational gaming can include cognitive benefits, such as attention control and cognitive flexibility [61], connection with other people, alleviating loneliness and fostering meaningful relationships [68], and a broad range of eudaimonic responses, including appreciation, meaningfulness, and self-reflection [25]. Despite a growing body of research on the impact of videogames on well-being, further work is needed to understand the theoretical foundations and potential mechanisms of both positive and negative effects of commercial games on mental health [31, 61]. It has been suggested that future research could further examine the roles of game aspects such as narrative, gameplay structures, and multiplayer for players’ mental health benefits [11], and particularly how different combinations of game aspects could support players in coping with difficult life experiences [76]. Moreover, the therapeutic potential of commercial videogames among different player populations remains unclear [61, 88]. Hence, there is a need for more in-depth analysis of what features could make particular videogames effective at affording players mental health benefits [76, 87]. A deeper understanding of the potential mental health benefits of recreational gaming could help further recognize how videogames can transcend entertainment and leverage interactive technologies for the development of engaging, effective, and accessible digital mental health support [69]."
-    },
-    {
-      "text": "To explore the interplay between gaming and self-reported narratives of mental health benefits, we conducted a thematic analysis [14, 15] of players’ experiences with the popular videogame Dark Souls [38], focusing on how players described the game as helping them manage and cope with what they termed “depression”. Importantly, we used “depression” as a keyword to identify relevant Reddit discussion threads, thereby examining players’ self-described mental health experiences with the game. Although these self-disclosed player narratives frequently referenced clinically diagnosed depression, we emphasize that the focus of our study was on the players’ own, self-reported accounts of their experiences. Consequently, our study should not be interpreted as assessing or affirming any clinical criteria for depressive disorders; in the context of our findings, the use of the word “depression” should be understood in a colloquial, self-identified sense rather than as a clinical mental disorder. The apparent association between Dark Souls and mental health benefits has been widely recognized in popular discourse [e.g., 24, 46, 50]. However, to our knowledge, this is the first in-depth, peer-reviewed study on the topic. Notorious for its extreme difficulty, the acclaimed Dark Souls series has been associated with gameplay experiences of repeated failure and avatar-death, which can potentially lead to more positive and meaningful feelings of achievement [86]. In previous studies, the game series has been mentioned by some participants in relation to personal growth [56] and empowering experiences [101]. Thus, Dark Souls serves as a compelling case for exploring how various aspects of its game design, such as challenging gameplay structure and narrative elements, might contribute to players’ well-being by affording experiences that are deemed meaningful, empowering, transformative, or even therapeutic. Additionally, online forums discussions can provide a valuable source of naturalistic, player-centric data [51], especially regarding players’ mental health experiences [87]. To support our research process, we employed artificial intelligence (AI) tools to help navigate our dataset and compile a purposive sample that was rich, dense, and diverse in meaning, suitable for an in-depth, contextually sensitive thematic analysis."
-    },
-    {
-      "text": "As a result, we developed four overarching themes that characterize how and why players perceived the game as helpful (or at times unhelpful) for their mental health. Through these four themes, we depict how (1) Dark Souls could cultivate resilience and perseverance translating into players’ real lives; (2) the game was seen and felt as a metaphor for players’ personal struggles with depression, and with mental health challenges and existential issues more broadly, offering deep philosophical and emotional resonance; (3) the game’s online community fostered emotional support and a sense of belonging through shared symbolic meanings and encouragement; and (4) players perceived the game as a form of self-care, describing it as having therapeutic value in helping them cope with real-life challenges. The contributions of the work are threefold:"
-    },
-    {"points": [
-    "We demonstrate how the interplay of game design elements in Dark Souls—such as its gameplay, narrative, and cooperative multiplayer—may contribute to players’ perceived mental health benefits. For example, our findings suggest that the extensively challenging yet rewarding nature of the gameplay, combined with its narrative context, could foster coping skills, empowerment, and a sense of self-efficacy that extend far beyond the gameplay. Further we found that the game was experienced as a reflective, metaphorical mirror for players’ own struggles with mental health and existential issues, fostering deep emotional and philosophical resonance and prompting meaningful, transformative reflection. Taken as a whole, our findings underscore the in-game concept of ‘hollowing’ as a defining feature of Dark Souls, weaving together its various game design elements and contributing holistically to players’ experiences of mental health benefits."
-    ,
-    "We highlight the potential of online communities and user interactions in digital mental health support. Our findings imply that both the online gaming community (r/darksouls in Reddit) and the game’s cooperative dynamics contributed to the emotional well-being and mental health support of players. This idea seemed to be echoed in recurring references to in-game phrases “Don’t You Dare Go Hollow” and “Praise the Sun”, which appeared to serve as communal catchphrases representing shared symbols of perseverance, hopefulness, encouragement, and a sense of belonging."
-    ,
-    "We offer insights into players’ perceptions of the self-help usage of commercial videogames: we found that many engaged with Dark Souls not merely for entertainment but as a form of self-care, using the game to distract from, alleviate, or process real-world struggles. While many players associated the game with therapeutic benefits, some also expressed critique towards the idea: a common sentiment among users was that whereas games are not a replacement for therapy, they can serve to supplement it."
-  ]}
+      }
     ]
   },
   {
-    "Topic": "Related Work",
-    "Achievement":"images/Badges/Related.png",
-    "content":[],
-    "subtopics": [
+    "topic": "1 Introduction",
+    "achievement": "images/Badges/Intro.png",
+    "content": [
       {
-        "Subtopic": "Dark Souls and Challenge",
-        "content": [
-          {
-              "text": "Dark Souls [38], developed by FromSoftware, is a seminal action role-playing game set in the dark fantasy world of Lordan. The game is known for its interconnected level design, punishing combat mechanics, and cryptic storytelling. In Dark Souls, the player explores a bleak, hostile, maze-like game world while encountering various traps and enemies, occasionally having to battle more formidable bosses in order to progress to new game areas. Throughout the gameplay, the player collects ‘souls’ serving both as in-game currency and experience points. Avatar death is a core mechanic of the game; upon death, all collected souls are dropped and the player’s character is returned to a previous checkpoint, or ‘bonfire’, from where the player must attempt to retrieve the souls without dying again, hence losing their progress."
-          },
-          {
-              "text": "Dark Souls, along with its remastered version [41], and two sequels (Dark Souls II [39] and Dark Souls III [39]), forms the Dark Souls trilogy, which is a part of a broader group of games by FromSoftware often referred to as “Soulsborne” titles. This label includes related games such as Demon’s Souls [37], Bloodborne [40], Sekiro: Shadows Die Twice [42], and Elden Ring [43], which share notable similarities with one another. One of the unifying characteristics is the challenging and unforgiving nature of their gameplay, which typically consists of repeated and frequent failure and death of the player-character. The games are critically and commercially widely successful, and they have inspired a so-called “Soulslike” subgenre of action role-playing games known for their high difficulty level."
-          },
-          {
-              "text": "Prior research surrounding Dark Souls has typically focused on this aspect of challenge. Conventionally, an optimal challenge-skill balance of a game has been considered one where the difficulty of a game is neither too high nor too low, so that the gameplay does not result in experiences of anxiety or boredom [86]. A survey study on Dark Souls III examined the question as to why players enjoy such a game that is defined by excessively challenging gameplay that conflicts with the conventional idea of an appropriate challenge-skill balance [86]. The study revealed that players’ reports of high difficulty and frequent failures were associated with positive player experiences and enjoyment [86]. The study found positive experiences associated with negative events, such as avatar death and struggle, were characterized by moments of achievement and victory, as well as by learning and improvement [86]. To explain the appeal of uncertain success in videogames, such as in Soulslike games, it has been proposed that players are motivated by the dynamic process of reducing the uncertainty of success [30]. This view posits that players find enjoyment in instances where they perform better than they expected, and in the case of Soulslike games, the process is characterized as an iterative process of error reduction where players incrementally learn from their failures and finally reach a rewarding successful outcome [30]."
-          }
-        ]
+        "text": "In response to the growing mental health crisis, digital mental health interventions are being actively developed, and game-based approaches are deemed promising due to their capacity to engage users [68]. Concurrently, commercial entertainment videogames are being recognized for affording mental health benefits to players [11, 31, 69, 87]. For example, commercial videogames have been shown to alleviate symptoms of depression and anxiety [61, 69]; in fact, many individuals with a desire to use game-based interventions for depression might already be actively using videogames as a way to manage their depressive symptoms [69]. However, further research is required to understand such self-help usage of commercial entertainment videogames [69]. Positive effects of recreational gaming can include cognitive benefits, such as attention control and cognitive flexibility [61], connection with other people, alleviating loneliness and fostering meaningful relationships [68], and a broad range of eudaimonic responses, including appreciation, meaningfulness, and self-reflection [25]. Despite a growing body of research on the impact of videogames on well-being, further work is needed to understand the theoretical foundations and potential mechanisms of both positive and negative effects of commercial games on mental health [31, 61]. It has been suggested that future research could further examine the roles of game aspects such as narrative, gameplay structures, and multiplayer for players’ mental health benefits [11], and particularly how different combinations of game aspects could support players in coping with difficult life experiences [76]. Moreover, the therapeutic potential of commercial videogames among different player populations remains unclear [61, 88]. Hence, there is a need for more in-depth analysis of what features could make particular videogames effective at affording players mental health benefits [76, 87]. A deeper understanding of the potential mental health benefits of recreational gaming could help further recognize how videogames can transcend entertainment and leverage interactive technologies for the development of engaging, effective, and accessible digital mental health support [69]."
       },
       {
-        "Subtopic": "Gaming, Well-Being, and Eudaimonia",
+        "text": "To explore the interplay between gaming and self-reported narratives of mental health benefits, we conducted a thematic analysis [14, 15] of players’ experiences with the popular videogame Dark Souls [38], focusing on how players described the game as helping them manage and cope with what they termed “depression”. Importantly, we used “depression” as a keyword to identify relevant Reddit discussion threads, thereby examining players’ self-described mental health experiences with the game. Although these self-disclosed player narratives frequently referenced clinically diagnosed depression, we emphasize that the focus of our study was on the players’ own, self-reported accounts of their experiences. Consequently, our study should not be interpreted as assessing or affirming any clinical criteria for depressive disorders; in the context of our findings, the use of the word “depression” should be understood in a colloquial, self-identified sense rather than as a clinical mental disorder. The apparent association between Dark Souls and mental health benefits has been widely recognized in popular discourse [e.g., 24, 46, 50]. However, to our knowledge, this is the first in-depth, peer-reviewed study on the topic. Notorious for its extreme difficulty, the acclaimed Dark Souls series has been associated with gameplay experiences of repeated failure and avatar-death, which can potentially lead to more positive and meaningful feelings of achievement [86]. In previous studies, the game series has been mentioned by some participants in relation to personal growth [56] and empowering experiences [101]. Thus, Dark Souls serves as a compelling case for exploring how various aspects of its game design, such as challenging gameplay structure and narrative elements, might contribute to players’ well-being by affording experiences that are deemed meaningful, empowering, transformative, or even therapeutic. Additionally, online forums discussions can provide a valuable source of naturalistic, player-centric data [51], especially regarding players’ mental health experiences [87]. To support our research process, we employed artificial intelligence (AI) tools to help navigate our dataset and compile a purposive sample that was rich, dense, and diverse in meaning, suitable for an in-depth, contextually sensitive thematic analysis."
+      },
+      {
+        "text": "As a result, we developed four overarching themes that characterize how and why players perceived the game as helpful (or at times unhelpful) for their mental health. Through these four themes, we depict how (1) Dark Souls could cultivate resilience and perseverance translating into players’ real lives; (2) the game was seen and felt as a metaphor for players’ personal struggles with depression, and with mental health challenges and existential issues more broadly, offering deep philosophical and emotional resonance; (3) the game’s online community fostered emotional support and a sense of belonging through shared symbolic meanings and encouragement; and (4) players perceived the game as a form of self-care, describing it as having therapeutic value in helping them cope with real-life challenges. The contributions of the work are threefold:"
+      },
+      {
+        "points": [
+          "We demonstrate how the interplay of game design elements in Dark Souls—such as its gameplay, narrative, and cooperative multiplayer—may contribute to players’ perceived mental health benefits. For example, our findings suggest that the extensively challenging yet rewarding nature of the gameplay, combined with its narrative context, could foster coping skills, empowerment, and a sense of self-efficacy that extend far beyond the gameplay. Further we found that the game was experienced as a reflective, metaphorical mirror for players’ own struggles with mental health and existential issues, fostering deep emotional and philosophical resonance and prompting meaningful, transformative reflection. Taken as a whole, our findings underscore the in-game concept of ‘hollowing’ as a defining feature of Dark Souls, weaving together its various game design elements and contributing holistically to players’ experiences of mental health benefits.",
+          "We highlight the potential of online communities and user interactions in digital mental health support. Our findings imply that both the online gaming community (r/darksouls in Reddit) and the game’s cooperative dynamics contributed to the emotional well-being and mental health support of players. This idea seemed to be echoed in recurring references to in-game phrases “Don’t You Dare Go Hollow” and “Praise the Sun”, which appeared to serve as communal catchphrases representing shared symbols of perseverance, hopefulness, encouragement, and a sense of belonging.",
+          "We offer insights into players’ perceptions of the self-help usage of commercial videogames: we found that many engaged with Dark Souls not merely for entertainment but as a form of self-care, using the game to distract from, alleviate, or process real-world struggles. While many players associated the game with therapeutic benefits, some also expressed critique towards the idea: a common sentiment among users was that whereas games are not a replacement for therapy, they can serve to supplement it."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "2 Related Work",
+    "achievement": "images/Badges/Related.png",
+    "content": [],
+    "subtopics": [
+      {
+        "subtopic": "2.1 Dark Souls and Challenge",
         "content": [
-           {
+          {
+            "text": "Dark Souls [38], developed by FromSoftware, is a seminal action role-roleplaying game, set in the dark fantasy world of Lordan. The game is known for its interconnected level design, punishing combat mechanics, and cryptic storytelling. In Dark Souls, the player explores a bleak, hostile, maze-like game world while encountering various traps and enemies, occasionally having to battle more formidable bosses in order to progress to new game areas. Throughout the gameplay, the player collects ‘souls’ serving both as in-game currency and experience points. Avatar death is a core mechanic of the game; upon death, all collected souls are dropped and the player’s character is returned to a previous checkpoint, or ‘bonfire’, from where the player must attempt to retrieve the souls without dying again, hence losing their progress."
+          },
+          {
+            "text": "Dark Souls, along with its remastered version [41], and two sequels (Dark Souls II [39] and Dark Souls III [39]), forms the Dark Souls trilogy, which is a part of a broader group of games by FromSoftware often referred to as “Soulsborne” titles. This label includes related games such as Demon’s Souls [37], Bloodborne [40], Sekiro: Shadows Die Twice [42], and Elden Ring [43], which share notable similarities with one another. One of the unifying characteristics is the challenging and unforgiving nature of their gameplay, which typically consists of repeated and frequent failure and death of player-character. The games are critically and commercially widely successful, and they have inspired a so-called “Soulslike” subgenre of action role-playing games known for their high difficulty level."
+          },
+          {
+            "text": "Prior research surrounding Dark Souls has typically focused on this aspect of challenge. Conventionally, an optimal challenge-skill balance of a game has been considered one where the difficulty of a game is neither too high nor too low, so that the gameplay does not result in experiences of anxiety or boredom [86]. A survey study on Dark Souls III examined the question as to why players enjoy such a game that is defined by excessively challenging gameplay that conflicts with the conventional idea of an appropriate challenge-skill balance [86]. The study revealed that players’ reports of high difficulty and frequent failures were associated with positive player experiences and enjoyment [86]. The study found positive experiences associated with negative events, such as avatar death and struggle, were characterized by moments of achievement and victory, as well as by learning and improvement [86]. To explain the appeal of uncertain success in videogames, such as in Soulslike games, it has been proposed that players are motivated by the dynamic process of the reducing the uncertainty of success [30]. This view posits that players find enjoyment in instances where they perform better than they expected, and in the case of Soulslike games, the process is characterized as an iterative process of error reduction where players incrementally learn from their failures and finally reach a rewarding successful outcome [30]."
+          }
+        ],
+        "subtopics": []
+      },
+      {
+        "subtopic": "2.2 Gaming, Well-Being, and Eudaimonia",
+        "content": [
+          {
             "text": "However, related to potential mental health benefits, little has been said regarding Dark Souls or Soulslike games particularly. In a survey study on the role of gaming during difficult life experiences [56], Dark Souls was mentioned by a couple of participants; “Dark Souls kinda helped me process some of the stuff going on in my life for some reason”, one participant reported [56, p.6]. On a general level, participants reported that videogames helped them cope by (1) offering respite from stress and trauma, (2) aiding in processing emotions, (3) fostering social connection, (4) serving as a catalyst for personal growth, and (5) providing a lifeline during periods severe existential doubt [56]. On a similar note, players have been found to sometimes re-frame their recreational gaming experiences as a form of self-care [96]; such self-care was associated with videogames’ capacity to (1) provide spaces for meaningful self-reflection and identity exploration, (2) prompt reflection on broader life issues, and (3) offer temporary relief or escapism from real-life problems [96]."
           },
           {
@@ -67,52 +68,389 @@
           {
             "text": "Eudaimonic gameplay experiences are often associated with moments of emotional challenge [22], involving affective engagement with game aspect narrative, moral choices, or character interactions [12, 23, 26], as opposed to more physical, performative challenges [28]. Related to eudaimonic outcomes, some players have been found to purposefully seek out gameplay experiences that are difficult to comprehend or deal with emotionally as a path to self-improvement and personal growth [23]. Since eudaimonic outcomes often seem to demand heightened affective and cognitive effort from the individual, it has been suggested that overly interactive or demanding gameplay may hinder such experiences [26]. While few studies have examined how varying levels of interactivity may impact eudaimonic gameplay experiences [26], previous work suggests that in-game choices that have social, moral, or consequential characteristics are perceived by players as more meaningful, with such choices being linked to greater appreciation [57]. However, the role of mechanically challenging gameplay in fostering perceptions of meaningfulness and other eudaimonic outcomes remains unclear."
           }
-        ]
+        ],
+        "subtopics": []
+      },
+      {
+        "subtopic": "2.3 Game-Based Therapy and Potential of Commercial Entertainment Videogames",
+        "content": [
+          {
+            "text": "There is a growing mental health crisis, with depression being the most common mental disorder globally [67], and a significant treatment gap, as most people with mental disorders remain untreated [68]. In response, digital mental health interventions are actively developed [68], which have been shown to be effective for treatment of depression and anxiety [3, 77, 104]. However, one challenge for digital interventions is low user engagement and high dropout rates, which contribute to reduced intervention effectiveness [68]. Thus, there is a need for effective digital interventions that users find engaging, motivating, and meaningful, and game-based approaches have been deemed promising in this regard [68, 71]. In addition to their capacity to engage and motivate users, game-based mental health interventions are deemed promising due to the widespread use of videogames among individuals with depression and anxiety [69, 71]. For example, game-based interventions have sought to adapt existing psychotherapies, offer cognitive training, and encourage physical exercise [35, 68]. The need for more engaging interventions has been seen to reflect a tension between the paradigms of health care and entertainment; health care is focused on minimizing user interaction with the intervention, whereas entertainment aims to maximize user interaction while typically overlooking any health-related outcomes [68]."
+          },
+          {
+            "text": "One promising direction, quite different from interventions that aim to translate an evidence-based mental health therapy into a game format, is repurposing commercial entertainment videogames in a healthcare context, given their potential albeit inadvertent benefits on players’ well-being [21, 35, 68]. Commercial videogames might even have certain advantages over serious games designed for health benefits [21]; while serious games have been compared to “chocolate-coated broccoli” [6, p.8], commercial games have been likened to “chocolate-coated strawberries” due to their ability to keep players engaged, thereby allowing them to reap both intentional and unintentional benefits from gameplay [21, p.5]. This sentiment is echoed in the argument that an effective game-based approach to mental health intervention should do more than attempt to make an otherwise uninterested task seem more appealing [68]. An example of the potential value of collaboration between game developers and mental health experts is illustrated by a case study [36] of Hellblade: Senua’s Sacrifice [80], which is a commercial game that aims to depict the experience of psychosis through its narrative and game mechanics. The game has been recognized as a successful integration of a serious mental health topic into a compelling and engaging commercial game, highlighting the potential of videogames for supporting mental health awareness, education, and possibly therapeutic interventions [36]."
+          },
+          {
+            "text": "A better understanding of the therapeutic potential of commercial videogames could help bridge the contrasting paradigms of healthcare and entertainment [68] and design for more effective and engaging digital applications for mental health support. Prior works have highlighted a need for further explorations of, for example, what kinds of players generally engage with commercial videogames as psychiatric self-help and how [69, 96]; the theoretical underpinnings and potential mechanisms of commercial videogames’ impacts on mental health [31, 61]; how specific game design aspects and their interplay may support players’ mental health [11, 76]; and how the therapeutic potential of commercial videogames may relate to different populations or types of players [61, 69, 88]. Moreover, in-depth, game-specific investigations have been deemed a promising direction for further exploring the therapeutic potential of commercial videogames [76, 87]."
+          }
+        ],
+        "subtopics": []
+      },
+      {
+        "subtopic": "2.4 Online Research and Player-Centric Insights",
+        "content": [
+          {
+            "text": "Online discussion forums can provide valuable naturalistic data on a wide range of social phenomena that might otherwise be difficult to study [59, 62]. Within HCI, platforms like Reddit have been used to explore topics such as addiction recovery [47] and perceptions of deepfakes [44]. In the context of videogames, online forums offer an innovative yet relatively underexplored method for studying players’ experiences, beliefs, and emotions [51]. For instance, one study analyzed how players described life changing game experiences with The Last of Us [78] by examining Reddit discussions and YouTube videos [89]. The game was associated with meaning-making and identity transformation, such as fostering self-acceptance, rethinking parenthood, and overcoming personal hardships [89]. These meaningful and transformative experiences were often tied to the game’s narrative, while online communities were seen as providing a supportive space for meaning-making and a sense of belonging [89]."
+          },
+          {
+            "text": "Another recent study identified commercial videogames with therapeutic potential through a content analysis of player-written game reviews [87]. Analyzing reviews of the 50 highest rated-games on Steam (which excluded Dark Souls), the authors found that players frequently disclosed mental health benefits in their publicly available user reviews, which clustered around seven specific game titles [87]. These benefits that the players described included utilizing games to relax, improve relationships, and manage mental health issues [87]. The study proposed that the therapeutic benefits of gaming should be assessed on a game-by-game basis, since similar genres or features can yield vastly different player experiences [87]. Additionally, the authors suggested exploring how players discuss their use of games for mental health on large public social media platforms like Reddit [87], which, outside the context of games, has been widely used to study depression and anxiety [10]."
+          }
+        ],
+        "subtopics": []
+      },
+      {
+        "subtopic": "2.5 Research Aim",
+        "content": [
+          {
+            "text": "Our study represents a contextual, in-depth exploration of players’ lived experiences of mental health benefits associated with Dark Souls, by analyzing players’ online forum discussions of the game surrounding the term “depression”. The aim of our research was to (1) explore how and why players perceived the game as being helpful (or unhelpful) for their mental health, and (2) elucidate the mechanisms of how the game could enhance players’ psychological and emotional well-being and potentially help them cope with depression or difficult life experiences. With our approach, we sought to derive rich, player-centric insights into the therapeutic potential of Dark Souls, focusing on how the interplay of game aspects like the game’s narrative elements, exceeding difficulty level, and multiplayer dynamics may contribute to eudaimonic experiences that foster players’ well-being."
+          }
+        ],
+        "subtopics": []
       }
     ]
   },
   {
-    "Topic": "Conclusion",
-    "Achievement":"images/Badges/Conclusion.png",
+    "topic": "3 Method",
+    "achievement": "images/Badges/Methods.png",
     "content": [
       {
-        "text": "Dark Souls supports mental health by fostering resilience, metaphorical self-reflection, community belonging, and self-care."
+        "text": "For this study, we conducted a thematic analysis [14, 15] of players’ personal narratives on Reddit surrounding Dark Souls and mental health. To help us navigate the wealth of available online data, we supplemented our manual research process with an AI-assisted approach. Specifically, we employed a Large Language Model (LLM) tool to highlight potentially relevant text passages and to perform semantic searches. Our aim was to retain researcher agency while making our dataset more manageable for the purposes of an in-depth, contextually sensitive thematic analysis of players’ lived experiences. In this section, we first provide an overview of our process (illustrated in Fig. 1) and explain our rationale for exploring an AI-assisted workflow. We then describe the data collection and analysis processes in more detail. Finally, we discuss the ethical considerations that guided our study."
+      },
+      {
+        "image": {
+          "url": "images/chi25-983-fig1.jpg",
+          "alt": "Data Collection Overview",
+          "description": "Fig 1 : Overview of the AI-assisted data collection and analysis process. We employed Large Language Models (LLMs) to 1) help compile a focused, purposive sample of relevant messages more manageable for the thematic analysis, and 2) to cross-check the analysis results against the broader dataset."
+        }
       }
     ],
     "subtopics": [
       {
-        "Subtopic": "Implications",
+        "subtopic": "3.1 Process Overview",
         "content": [
           {
-            "text": "Videogames can offer more than entertainment, serving as valuable digital mental health tools."
+            "text": "At the heart of our research process was the thematic analysis [14, 15] conducted manually by the first author. As illustrated in Fig. 1, our process included the following steps:"
           },
           {
-            "quote": "This study highlights the importance of gameplay, narrative, and community integration in gaming interventions."
+            "points": [
+              "Data collection: We focused on the subreddit r/darksouls and used “depression” as an anchoring keyword to search for relevant discussion threads (Sections 3.3.1 and 3.3.2).",
+              "AI-assisted highlighting: With the aid of an LLM, we highlighted passages in the data that were deemed potentially significant for our research questions (Section 3.3.3).",
+              "Extracting purposive sample: From the highlighted data, we extracted a more focused, purposive sample for the manual analysis, emphasizing richness and relevance of data (Section 3.3.4).",
+              "Thematic analysis: The first author conducted an in-depth, organic process of inductive coding and theme development on the purposive sample (Section 3.4).",
+              "Refining results through semantic search: After coding and theme development, we used an LLM-based semantic search to cross-check and reflect on our findings in the context of the broader dataset (Section 3.5)."
+            ]
+          },
+          {
+            "text": "We emphasize that we did not employ LLMs to generate, summarize, or paraphrase data. Instead, LLMs were only used to highlight relevant passages in the data (guided and carefully validated using human-highlighted examples) and to perform semantic searches to reflect on and refine the results of the analysis."
+          }
+        ]
+      },
+      {
+        "subtopic": "3.2 Rationale for AI-Assisted Approach",
+        "content": [
+          {
+            "text": "We adopted thematic analysis due to its suitability in capturing the nuances of individuals’ lived experiences and sense-making around complex phenomena [16], such as gameplay and mental health. Our initial data collection yielded a fairly sizable and convoluted dataset (approx. 4,000 posts spanning 103 threads, comprising approx. 200,000 words). While not extremely large, this volume was not ideal for the kind of detailed, context-sensitive qualitative inquiry we sought [e.g., 95, 94]. To reiterate, we wanted to emphasize richness and relevance of data over quantity [17] and avoid data overload, since through our analysis we sought to develop intricate themes, or meaning-united interpretive stories that “cut across a dataset” [18, p.2]."
+          },
+          {
+            "text": "Within HCI, there has been increased interest in AI-assisted qualitative research in recent years, with the promise of AI potentially aiding the analysis of larger datasets [7, 32, 53, 58]. However, there have been calls for increased researcher agency in AI-assisted qualitative research [32, 58]. Motivated by these concerns, we explored a workflow where AI tools might complement, rather than hinder, researchers’ creative and reflexive engagement with data during analysis [18]. To this end, we employed LLMs to assist with purposive sampling, helping us compile a more focused data subset aligned with our research objectives. Additionally, after the first author had coded the data and developed initial themes, we utilized semantic search to reflect on and refine our findings within the context of the broader dataset, supporting the iterative and recursive process of theme development [16, 20]."
+          },
+          {
+            "text": "We implemented our LLM-assisted workflow securely in accordance with our human-first research values, privacy considerations, and emphasis on researcher reflexivity and contextual sensitivity. For example, the LLM operations were performed in a controlled and secure computation environment endorsed by our university. Moreover, our use of AI aligned with participants’ attitudes identified in previous studies, which suggested skepticism toward AI-generated coding but openness to AI-assisted data exploration and comparison with human-generated interpretations [32, 58]. Our implementation extends the LLMCode Python toolkit we developed in previous work [54, 55]. Source code is provided as supplementary material. Details of AI use are provided in Sections 3.3.3 and 3.5 and in the Appendix."
+          }
+        ]
+      },
+      {
+        "subtopic": "3.3 Purposive Sampling",
+        "content": [
+          {
+            "title": "3.3.1 Why r/darksouls?",
+            "text": "We focused on the subreddit r/darksouls to analyze discussions about Dark Souls and conduct more in-depth examination of game-specific elements, such as narrative, gameplay mechanisms, and community cultures. Our approach aligns with previous calls for more detailed, game-specific investigations into the mental health affordances of commercial videogames [76, 87] and leverages the potential of Reddit as a valuable platform for accessing both mental health discourse [27, 87] and naturalistic data on players’ experiences [51]. Another benefit of using online data is that it averts certain ethical issues relating to the study of sensitive or difficult life experiences [87], particularly, issues related to the researcher’s role in the collection of data and in supporting the participants [see, 56]. Further, HCI researchers are typically not trained to engage with vulnerable participants in dialogues around topics such as suicidal ideation or grief [87]."
+          },
+          {
+            "title": "3.3.2 Keyword Search and Manual Pruning of Discussion Threads.",
+            "text": "We used “depression” as a keyword to anchor our data collection on Reddit, specifically targeting self-disclosed mental health experiences among players. It is important to stress that the term “depression” here reflects the language used by Reddit users themselves to describe their own mental health experiences—not formal diagnoses of depressive disorders. We deliberately selected this keyword because it appeared to capture a broad spectrum of self-described mental health experiences pertinent to our research aim. Although we initially considered expanding our search to include other related terms such as “anxiety”, we ultimately limited our scope to “depression” since its usage among players seemed to most clearly encapsulate the phenomenon under investigation. Moreover, we found that the volume of relevant data using this search term alone was substantial enough for the purposes of our analysis. Using the Python Reddit API Wrapper (PRAW), we queried the r/darksouls subreddit and identified 220 discussion threads containing the term “depression” (including variations such as “depressed” or “depressing”). We then manually screened these threads to ensure that the content was contextually relevant, focusing on discussions where users provided substantive personal descriptions of mental health experiences. Oftentimes, these narratives included references to having been diagnosed with depression, yet it is crucial to interpret our data as self-reported accounts of players’ experiences rather than as clinically validated diagnoses. Many threads merely mentioned the term “depression” in a clearly trivial, humorous, or hyperbolic manner (e.g., users expressing momentary frustration at having failed to defeat a specific in-game enemy), which we excluded from the dataset. To locate any threads overlooked in our initial PRAW search, due to limitations of Reddit’s free API, we performed an additional manual search on the Reddit webpage, again using the same keyword and screening each result. In total, we compiled a list of 103 threads evaluated as relevant, comprising nearly 4,000 posts, accumulating over 200,000 words of text."
+          },
+          {
+            "title": "3.3.3 AI-Assisted Highlighting of Relevant Statements.",
+            "text": "To more efficiently navigate this fairly large and convoluted dataset, we employed an LLM (GPT-4 Turbo [84]) to highlight potentially meaningful passages in each post. This process was guided by human judgment: the first author produced a validation dataset of messages where passages that were deemed as potentially significant were highlighted, and the LLM was instructed to highlight similar content in the full dataset using a few-shot prompting approach [19]. With this approach, we sought to alleviate one of the challenges associated with thematic analysis, which is choosing what to explore when working with “rich, complex, ‘messy’ data” [17, p.210]. The outputs of the LLM were checked for hallucinations [5, 66] and the agreement between LLM and human highlights was quantified using Intersection over Union (IoU) a.k.a. Jaccard Index [90]. For more details on the workflow, IoU scores, and prompting, see Appendix A. This process resulted in 3,011 passages highlighted in 1,868 out of the total 3,957 messages. The human-highlighted validation dataset of 189 messages yielded a mean IoU of 0.90, indicating an overall good human-LLM agreement. In our validation data, 147 messages (78%) had a perfect IoU=1, and only 9 messages (4.8%) were complete failures with IoU=0. To provide a clearer understanding on the nature of our data, the LLM outputs, and interpretation of IoU scores, an illustrative example of the highlighting can be seen in the Table 1, which was generated using paraphrased messages for ethical reasons (see Section 3.6). In the next processing stage (see below), we included all messages where at least something was highlighted; hence, the validation dataset indicated an inclusion accuracy of 95%, with 2.1% false negatives and 2.6% false positives. Here, the false negative rate was deemed more important, since the human researcher conducting the thematic analysis could simply ignore the false positives, i.e., instances where the LLM had highlighted insignificant passages. While not perfect, we considered the LLM-highlighted posts useful for helping us to focus our analysis on content pertinent to our research questions."
+          },
+          {
+            "table": [
+              ["Human highlights", "LLM highlights", "IoU"],
+              [
+                "I think what you’re saying makes sense. In my own experiences with mental disorders, I’ve also found Dark Souls and some of the other Soulsbourne games to have been helpful, which I believe is something that resonates with a lot of players as well. I would suggest that you play through all three Dark Souls games. Also, I haven’t yet played some of the latter installations of the Soulsborne series myself, but they should also be really good. I hope I’ll get the chance to play though all of the games at some point. I’m wishing you joy and success, and, don’t go hollow!",
+                "I think what you’re saying makes sense. In my own experiences with mental disorders, I’ve also found Dark Souls and some of the other Soulsbourne games to have been helpful, which I believe is something that resonates with a lot of players as well. I would suggest that you play through all three Dark Souls games. Also, I haven’t yet played some of the latter installations of the Soulsborne series myself, but they should also be really good. I hope I’ll get the chance to play though all of the games at some point. I’m wishing you joy and success, and, don’t go hollow!",
+                "1.000000"
+              ],
+              [
+                "To me, Dark Souls is about the idea that no matter what challenges you face, you must keep pushing forward, refusing to give up, even if it all seems hopeless and meaningless, which I think mirrors real life. Even if all hope seems to be lost, you must find your own reason for living: this is what the game characters all do, they have picked their own purpose in life, something that they are fighting for. I cherish Dark Souls because of its philosophical depth: it can really teach you something useful and valuable about life. Anyways, apologies if this was a dumb message, or if I made some typos, I just wanted to share my thoughts.",
+                "To me, Dark Souls is about the idea that no matter what challenges you face, you must keep pushing forward, refusing to give up, even if it all seems hopeless and meaningless, which I think mirrors real life. Even if all hope seems to be lost, you must find your own reason for living: this is what the game characters all do, they have picked their own purpose in life, something that they are fighting for. I cherish Dark Souls because of its philosophical depth: it can really teach you something useful and valuable about life. Anyways, apologies if this was a dumb message, or if I made some typos, I just wanted to share my thoughts.",
+                "0.763466"
+              ],
+              [
+                "This post may seem corny, but here goes. I have a certain mental condition, and for a long time, I have found life to be exceedingly difficult, and I have had extensive experiences with depression. However, playing Dark Souls helped me realize something important and find a more positive and hopeful outlook on life. In the game, you have to face the same obstacles time and time again, until you learn how to overcome them. It might take you lots of times, failing and trying again, and it is such an uplifting and motivating experience when you finally do figure out how to defeat that enemy. Dark Souls taught me to view real life in a similar way, which has helped me find a lot of happiness and meaning in life. For this, I’m very grateful to the game.",
+                "This post may seem corny, but here goes. I have a certain mental condition, and for a long time, I have found life to be exceedingly difficult, and I have had extensive experiences with depression. However, playing Dark Souls helped me realize something important and find a more positive and hopeful outlook on life. In the game, you have to face the same obstacles time and time again, until you learn how to overcome them. It might take you lots of times, failing and trying again, and it is such an uplifting and motivating experience when you finally do figure out how to defeat that enemy. Dark Souls taught me to view real life in a similar way, which has helped me find a lot of happiness and meaning in life. For this, I’m very grateful to the game.",
+                "0.558464"
+              ]
+            ]
+          },
+          {
+            "text": "Examples of human and LLM highlights and the corresponding IoU scores. The scores are in range 0...1, where 1 indicates perfect human-LLM agreement. The average IoU over our validation dataset of 189 messages was 0.9, indicating an overall good human-LLM agreement."
+          },
+          {
+            "title": "3.3.4 Extracting and Formatting Random Sample of Relevant Statements.",
+            "text": "From the highlighted data, we sought to select a manageable sample that was rich, dense, and diverse in its meaning. When approximating a suitable sample size, we wanted to have a dataset that would allow nuanced insights of overarching, diverse meanings within the data, yet would not be so large as to disrupt the depth of the interpretive engagement with the dataset as a whole during the organic coding process [18]. When forming our sample, we first omitted posts with parent messages that had been deleted by users to maintain the context of each message. Then, we took a random 10% sample of the remaining 1,838 highlighted posts. By sampling posts randomly from various threads, we aimed to capture diverse perspectives and different stories for our analysis [17]. Finally, we added any missing parent messages for context."
+          },
+          {
+            "text": "The selected purposive sample included 311 messages extracted from 65 threads. To compare our sample size to previous studies with a similar focus on an in-depth exploration of users’ lived mental health experiences, one study on youth’s mental health challenges reported screening 3,000 Reddit posts, including 98 in the final thematic analysis [94]. Another thematic analysis focusing on individuals’ experiences of suicidal thoughts during the COVID-19 pandemic included a total of 83 Reddit posts [95]."
+          },
+          {
+            "text": "The sampled data was then imported into Atlas.ti [48] for a manual thematic analysis. Each thread was formatted as a.pdf file with the highlights displayed in boldface. In other words, the human analyst could also see the non-highlighted parts of the messages, reducing the impact of false negatives, i.e., cases where useful data had not been highlighted by the LLM."
+          }
+        ]
+      },
+
+      {
+        "subtopic": "3.4 Thematic Analysis",
+        "content": [
+          {
+            "text": "The thematic analysis, conducted by the first author, followed the six-phase approach as per Braun and Clarke [16]. For our analysis, we adopted a contextualist stance, balancing between realist and constructivist positions [14]. We acknowledge the complexities of mental health experiences as socially and culturally influenced phenomena and view our analysis as an interpretive, rather than purely descriptive endeavor. To highlight the experiential knowledge and self-reported, lived realities of the community members, we employed inductive coding rather than attempting to frame the discourse of the community within some predefined theoretical structure. Nevertheless, while our analysis was inductive in principle, it was inevitably shaped by the researcher’s preconceptions and prior knowledge, including familiarity with related literature, as evident in our purposive sampling process."
+          },
+          {
+            "text": "To underscore our commitment to researcher reflexivity, the first author acknowledges that his understanding was shaped by personal—albeit perhaps somewhat indirect—encounters with depression and by past eudaimonic experiences with videogames. Although the researcher has not having experienced clinically diagnosed depression firsthand, an intimate familiarity with close others’ experiences has sensitized him to the complexities of mental health discourse. Furthermore, the researcher’s prior encounters with deeply meaningful, or eudaimonic gameplay experiences—though not with the Soulsborne series (despite having played most of its games)—fostered an openness to the potential mental health benefits of Dark Souls. In our thematic analysis, rather than viewing these subjective perspectives as biases to be eliminated [16], we embraced them as valuable assets for critical reflection and nuanced interpretation of users’ self-described experiences [82]."
+          },
+          {
+            "text": "In the first phase, the first author immersed and familiarized themselves in the discussion threads of r/darksouls, and extensively explored the data throughout the purposive sampling process (see Section 3.3). Further, to help contextualize the game discussions, before the study, the first author played through Dark Souls (remastered) in its entirety. Prior to conducting any coding, the first author carefully read through the entire sampled dataset, writing familiarization notes. For the inductive coding, we focused both on semantic and latent meanings [15]. We deemed it crucial to look beyond the explicit, surface level content of the discussions by including interpretations of their underlying, implicit meanings, since gaming cultures could commonly use non-literal expressions, such as satire, memes, and hyperbole [87]. Notably, close familiarity with Dark Souls was critical for understanding many of the elaborate in-game references players made in their discussions."
+          },
+          {
+            "text": "While the anonymity enabled by online forums may encourage users to disclose more authentic and detailed accounts of their experiences of sensitive issues, such as mental health [27], it can also yield data that lacks context or clarity. To help interpret and contextualize our data, we immersed ourselves in Dark Souls and the r/darksouls community prior to analysis. This familiarity helped us make sense of the various elaborate in-game references, memes, and non-literal language embedded in players’ online discussions."
+          },
+          {
+            "text": "In the next phase, the first author inductively generated initial codes for the sample data. We did not aim to establish inter-rater reliability since we conceptualized codes as the process rather than the product of analysis [72]. During the analytic process, codes were collated under data topics, or domains [16], which served as broad descriptive labels for what was being discussed in the data. Hence, the purpose of our codes and data topics was to stimulate further interpretive work during which overarching themes, or “patterns of shared meaning, united by a central concept or idea” [16, p.341] would be developed. The initial coding resulted in 103 codes, which were ultimately collated under seven data topics: (1) Communal discourse and perceptions, (2) Context and motivation of play, (3) Coping mechanisms and skills, (4) Emotional and psychological responses, (5) Gameplay experience and interactions, (6) Impact beyond gameplay, and (7) Philosophical and symbolic resonance."
+          },
+          {
+            "text": "The coding progressed from the longest threads to the shortest ones, as measured by the number of comments before the random sampling. Although we had initially ball-parked 10% of the extracted data (i.e., 311 highlighted posts spanning 65 threads) as a suitable sample for in-depth inductive coding, due to the interpretive nature of our thematic analysis, we were skeptical of the practicality of predetermined sample sizes or traditional data saturation [17]. We found our purposive sample to be particularly abundant and dense in its meaning, and after having coded 236 highlighted posts, spanning 33 threads (accumulating roughly 24,000 words or 60 pages in text), we made a situated, interpretive judgment [17] to move from the initial coding to the recursive refinement of codes and theme generation. In contrast to the idea of data saturation (i.e., a point when no new insights emerge from the data), when considering sample sizes in thematic analysis, concepts such as information power [70] or conceptual depth [79] have been deemed more useful, highlighting the relevance, richness, and diversity of data rather than its quantity [17]. Hence, our decision to progress to further phases of the analysis was based on a judgment that the coded data was sufficiently rich to provide meaningful insights into the research questions (as should become apparent in Section 4), and a desire to commit to the interpretive depth and contextual sensitivity of our analysis."
+          },
+          {
+            "text": "Next, through iterative refinement of the codes, the first author generated initial themes, which were then further developed and reviewed by the co-authors. Finally, after refining and defining the themes, we arrived at four overarching themes, which we report in Section 4."
+          }
+        ]
+      },
+      {
+        "subtopic": "3.5 Supplementary AI-Based Semantic Search: Cross-Checking and Refining Analysis Results",
+        "content": [
+          {
+            "text": "To complement or thematic analysis, which covered only a subset of the data, we conducted an LLM-based semantic search over the whole dataset. We considered this a reflexive activity, aiming to challenge or “sense check ideas” and explore alternative assumptions or interpretations [20, p.1393], thus helping us refine our final themes. To implement this, we first synthesized a set of propositions that reflected our key insights and corresponding counter-propositions, such as “Dark Souls can help one with depression / Dark Souls does not help one with depression”, “Overcoming repeated failures in Dark Souls helps one cope with failure in real life / Overcoming repeated failures in Dark Souls does not help one cope with failure in real life” and “The game’s multiplayer dynamics reinforce a feeling of connectedness with others / The game’s multiplayer dynamics do not reinforce a feeling of connectedness”."
+          },
+          {
+            "text": "Using OpenAI’s text-embedding-3-large model, we converted the propositions and messages into vectors such that the vectors of semantically similar texts have a high cosine similarity [83]. This was essentially an LLM-based implementation of the paragraph vector technique of Le and Mikolov [65]. For each proposition and counter-proposition, we calculated its cosine similarity with all the messages. We sorted the messages based on the similarities and formatted the results as sets of ten messages most similar to each proposition and counter-proposition. These messages helped ensue a balanced discussion of the analysis results and surface voices opposing the majority views."
+          },
+          {
+            "text": "While the search results were frequently fairly noisy, the most similar messages often aligned with or enriched our themes. For instance, the search illuminated alternative perspectives, particularly related to players’ divisive opinions on the therapeutic value of videogames. In one case, while the counter-proposition “The game’s multiplayer dynamics do not reinforce a feeling of connectedness” did not surface any messages directly supporting it, it surfaced a complaint about a lack of multiplayer, presumably due to online inactivity at the time, reflecting feelings of emptiness."
+          }
+        ]
+      },
+      {
+        "subtopic": "3.6 Ethical Considerations",
+        "content": [
+          {
+            "text": "Since mental health is a sensitive topic, and the use of Reddit data poses its own ethical complications [33], we made additional efforts to consider the ethical implications of our study and to mitigate any potential harm to the community and individuals that we sought to learn from. We ensured that our use complied with Reddit’s content and data API usage policies, which emphasize openness and accessibility, allowing public content to be used for the purposes of academic research granted that the data is not redistributed. Hence, while we recognize the value of open science, we could unfortunately not share our dataset."
+          },
+          {
+            "text": "To protect users’ privacy, we reported only paraphrased quotes of messages [33]. All quotes were manually paraphrased by the first author, by rewording and altering sentence structures. Further, details such as names of game characters or specific descriptions of users’ life situations were obfuscated, aligning with the idea of ethical fabrication, as a privacy-preserving technique suitable for Reddit data [33]. To ensure that the paraphrased quotes could not be traced to individual users [33], they were tested in the search engines of Google and Reddit (alongside terms like “r/darksouls” and “depression”) to confirm that the original thread was not displayed in the results. Additionally, to introduce an extra layer of accountability, both co-authors reviewed all paraphrased quotes alongside the originals to ensure agreement that they faithfully portrayed the data."
+          },
+          {
+            "text": "To better understand the community and identify potential risks [33], we observed the subreddit to learn about its norms and practices, ensuring that our research would not disrupt or harm the community or violate its rules. Beyond minimizing harm, we aimed to maximize potential benefits of our research [33]. While immersed in r/darksouls, we noted that many users recognized and expressed interest in the phenomenon where the game is associated with depression. We clarify that this study does not aim to promote or endorse Dark Souls or FromSoftware but to explore mental health benefits players associate with the game. By highlighting these positive impacts, we aim to inform to the design of more engaging and effective digital mental health support."
+          },
+          {
+            "text": "Our study was approved by our institutional ethical review committee. The ethics review involved a thorough assessment of the potential risks and benefits involved, and considers that the research adheres to ethical and legal standards."
           }
         ]
       }
     ]
   },
   {
-    "Topic": "Reference",
-    "Achievement":"images/Badges/Results.png",
+    "topic": "4 Results",
+    "achievement": "images/Badges/Results.png",
     "content": [
       {
-        "text": "Dark Souls supports mental health by fostering resilience, metaphorical self-reflection, community belonging, and self-care."
+        "text": "In this section, we present our findings through the four overarching themes that we developed. These themes depict players’ perceptions of Dark Souls as being helpful (or unhelpful) in relation to depression or mental health more generally. Notably, throughout this section, the word “depression” reflects the players’ own language and self-reported experiences; while players’ descriptions oftentimes made references to clinical diagnoses of depression, we again highlight that due to the nature of our data, the word “depression” here should be understood in a more colloquial, self-identified sense rather than as a clinical mental disorder. The four developed themes were defined as follows: (1) Life lessons in resilience and perseverance, (2) Reflective mirror for depression and existential struggles, (3) Community as a source of strength and support, and (4) Gaming as self-care. Although each theme reveals a distinct facet of players’ mental health experiences with Dark Souls, they are deeply intertwined, collectively reflecting the multifaceted and complex ways in which players engage with and make sense of the game."
+      },
+      {
+        "text": "On the structure of Results: to narrate the reader through our themes while illuminating our analytic process, we used section headers that represent codes from the initial analysis (e.g., 4.1.1 Learning through trial and error). These are examples of codes that contributed to the development of respective themes, and they are supplemented by examples of paraphrased quotes representing respective codes. However, due to the interwoven and overarching nature of the themes, individual codes could relate to multiple themes, and individual quotes could relate to multiple codes. Hence, while each theme and code is presented separately, they often overlapped, with many quotes resonating across multiple themes. This approach underscores the fluid, organic nature of our analysis, where themes are not rigid categories but intertwined interpretations that collectively illuminate how Dark Souls was seen to intersect with players’ mental health experiences."
       }
     ],
     "subtopics": [
       {
-        "Subtopic": "Implications",
+        "subtopic": "4.1 Theme 1: Life lessons in perseverance and resilience",
         "content": [
           {
-            "text": "Videogames can offer more than entertainment, serving as valuable digital mental health tools."
+            "title": "4.1.1 Learning through trial and error",
+            "text": "Ideas of perseverance and resilience seemed to be echoed most clearly through the gameplay structure of Dark Souls: players characterized the gameplay as challenging but methodological, typically consisting of repeated failures (avatar death) in the face of a seemingly insurmountable obstacle (e.g., a difficult boss fight), followed by learning through trial and error and ultimately triumph and an uplifting sense of achievement. One player described the cycle as follows: 'In the gameplay, you keep failing and trying again, trying to learn from your mistakes, even when it seems like there is no way of emerging as victorious. When facing a new enemy, at first your character will get destroyed. However, as you learn and improve, you will finally start predicting the enemy’s actions, and you will make use of every opportunity to strike back, overcoming all obstacles that the game poses you. Now, thanks to your own effort and determination, you’re practically invincible.'"
           },
           {
-            "quote": "This study highlights the importance of gameplay, narrative, and community integration in gaming interventions."
+            "title": "4.1.2 Embracing failure and challenges",
+            "text": "To many, this gameplay cycle of learning from one’s mistakes and trying again seemed to reflect real life; 'In Dark Souls, you don’t lose unless you stop trying, which is how it works in the real world as well: being defeated is an inseparable element of attaining victory', one player described. Many players shared a similar sentiment about the game having taught them useful life lessons, for example about accepting and learning from failures: 'I learned something valuable through Dark Souls: you don’t need to win each fight, but what matters is that you persist and keep going despite getting defeated, always striving to improve. This mindset has been very helpful for me in dealing with my own problems and not getting overwhelmed by them.'"
+          },
+          {
+            "title": "4.1.3 Uplifting victory",
+            "text": "Players described how the gameplay and the oppressive and dark game world could make them feel frustrated, annoyed, or demoralized. However, these negative feelings would ultimately be followed by an a sense of triumph, after finally learning how to emerge victorious—through a process of trial-and-error—which players frequently characterized as an uplifting and elevating experience."
+          },
+          {
+            "title": "4.1.4 Empowerment and self-efficacy",
+            "text": "Players frequently associated their in-game triumphs with feelings of achievement, which appeared to contribute to feelings of confidence, empowerment, or self-efficacy in players’ real lives. One player, reflecting on the dark and hopeless atmosphere of the game world, described how the game had helped them during their depression: 'Dark Souls empowered me with a much-needed feeling of being in control and having agency.'"
+          },
+          {
+            "title": "4.1.5 Applying game skills to real life",
+            "text": "Such empowerment or self-efficacy seemed to be expressed as descriptions of the game providing players a heightened capacity to cope with and overcome challenges of their own lives. Here, players described how they would think of their experiences with Dark Souls and apply what the game had taught them when real-life adversities: 'Dark Souls was a representation of the struggles my own life: I saw the bosses as my personal challenges, iteratively, through perseverance, I could learn how to overcome them, and to not go hollow.'"
+          }
+        ]
+      },
+      {
+        "subtopic": "4.2 Theme 2: Dark Souls as a reflective mirror for depression and existential struggle",
+        "content": [
+          {
+            "title": "4.2.1 Dark Souls as a mirror for life",
+            "text": "Players described how the game provided them a reflective surface through which to view their own life, which provided solace and hope amid difficult life experiences. Dark Souls was seen as reflecting real life somehow, and particularly its struggles: 'Playing Dark Souls has been a profound and cathartic experience amid my struggles with depression. I see it as a reflection of life: although misfortunes are inevitable, each adversity carries with it a glimpse of hopefulness and optimism. There’s beauty in devoting yourself to personal growth, gradually learning from your failures and finally overcoming what you previously couldn’t.'"
+          },
+          {
+            "title": "4.2.2 Dark Souls as a representation of depression",
+            "text": "Specifically, many viewed the game as a portrayal of depression. For example, one player described: 'Dark Souls felt like an embodiment of my own depression: failing repeatedly in the face of obstacles that seem impossible to overcome in this dark and hopeless environment. However, I found that I no longer feared failure in my real life: the game has given me hopefulness, a belief that I get through this difficult time.'"
+          },
+          {
+            "title": "4.2.3 Hollowing as a metaphor",
+            "text": "Particularly, the in-game concept of hollowing provided a powerful source of symbolic resonance, with players characterizing it as a metaphor for real-life struggles. In Dark Souls, hollowing occurs when the player character repeatedly dies and loses their ‘Humanity’, a resource that, when depleted, prevents the player from summoning others for help. In the game’s lore, hollowing is tied to the ‘Darksign’, a cursed brand of the ‘Undead’ who are doomed to a repeated repeated cycle of death and resurrection, and inevitable degeneration into a mindless ‘Hollow’. The player controls the ‘Chosen Undead’, a character prophesied to either perpetuate or end the cycle of the Undead curse. Thus, hollowing represents an important element of both the narrative and mechanics of Dark Souls. Hollowing was commonly described by players as an allegory or metaphor for depression, but also for other mental health disorders, addiction, and existential crises, for example. One player described as follows: 'I think that the cycle of hollowing is an excellent metaphor for depression. In the grim world of Dark Souls you’re surrounded by all these ill-fated, pessimistic characters, who are secretly terrified of losing their humanity, of giving in and going hollow. When you yourself are going through a difficult time in life, relating to these miserable characters gives you solace. It emphasizes that you cannot be defeated, as long as you have that flicker of hope within you, which helps you persevere no matter what challenges you face in your life.'"
+          },
+          {
+            "title": "4.2.4 Emotional resonance and Nihilistic themes",
+            "text": "Hence, players frequently described how Dark Souls had somehow resonated with them, particularly with their experiences of depression. Such resonance was often associated with philosophical reflections, which were commonly related the atmosphere of the game world, and to narrative elements, such as plot, characters, lore, and perceived themes. Many associated the game with nihilistic themes, describing how the game resonated not only with depression, but with topics of meaninglessness, apathy, and existential struggles."
+          },
+          {
+            "title": "4.2.5 Finding purpose in meaninglessness and struggle",
+            "text": "However, perceptions of such nihilism often seemed to have evolved to more optimistic reflections of existentialism, with players describing how the game is about finding your own purpose in a world devoid of meaning. Oftentimes, rather than being related explicitly to the game’s narrative, players seemed to relate such philosophical resonance to game in a more holistic sense: 'The message of Dark Souls is that the world is meaningless, and it doesn’t matter whether you succeed or not. You must find your own purpose and meaning, that’s what important in life. To me, this is a reassuring message, because I know that in the end, my mistakes don’t matter since everything is impermanent.'"
+          },
+          {
+            "title": "4.2.6 Triggering introspection and self-discovery",
+            "text": "Players described how the game could, through such resonance, help them come to terms with themselves and cope with their own depression. For example, one player reported: 'Being in this bleak and dismal world of Dark Souls allowed me to understand aspects of my own identity, helping me recognize and cope with my depression.'"
+          },
+          {
+            "title": "4.2.7 Changing outlook on life",
+            "text": "At times, players explicitly articulated how the game could change their perspectives on life. For instance, one player described: 'The game can help you by changing your outlook on life. Hollowing is a metaphor for depression: in the dark and treacherous world of Dark Souls, you keep bearing hardship one after another, each more arduous than the other, and even though it all seems to be devoid of any meaning, you continue forward. It doesn’t matter how many times you die in the game, as long as you persevere and remain hopeful: your character only goes hollow if you quit trying.'"
+          }
+        ]
+      },
+      {
+        "subtopic": "4.3 Theme 3: Community as a source of strength and support",
+        "content": [
+          {
+            "title": "4.3.1 Cooperation and multiplayer",
+            "text": "There were some reports of the how the multiplayer dynamics of Dark Souls provided players with emotional support and a feeling of togetherness. In Dark Souls, the player can at times summon other players into their game to help with particular challenging areas or bosses. The cooperative multiplayer revolves around the use of specific in-game items, through which players can leave a summon sign for other players to see and interact with in their respective game worlds. The summoning mechanic works is tied to in-game concept of hollowing, so that only when the players’ character is in human form (i.e., not hollowed) can they see the summon signs left by other players and invite them temporarily into their game world as ‘Phantoms’. Even in single-player mode, the player can on occasion summon certain non-playable characters (NPCs), such as Solaire."
+          },
+          {
+            "title": "4.3.2 Solaire and Sunbroing",
+            "text": "In reference to the game character Solaire, an affable knight who is on a quest to seek his 'very own sun'—as he describes to the player character—users commonly referred to the act of engaging in cooperative multiplayer as Sunbroing. One player described: 'Sunbroing in Dark Souls has provide me an incredible amount of joy and happiness. In this world that is that dark, inhospitable, and unsympathetic to our struggles, we need to join forces and cooperate with each other.'"
+          },
+          {
+            "title": "4.3.3 Importance of asking for help",
+            "text": "To some, the game’s multiplayer dynamics and particularly the act of summoning reflected the value of cooperation and asking for help in a broader sense. For example, one player characterized multiplayer as the most profound aspect of the game: 'I had this immensely uplifting experience when I summoned a Sunbro for help against a certain boss. For a moment, we were united, and I was no longer alone in my own desolate world, joining our forces to tackle this fearsome undertaking, which we did manage to conquer, together. Ultimately, I understood that I could ask for help in the real world as well and started doing it. It’s not like the game has cured my depression, but it has given me courage to start dealing with it.'"
+          },
+          {
+            "title": "4.3.4 Supportive messages",
+            "text": "In the discussions, users commonly left supportive, encouraging messages for one another. In addition, as part of the online features of Dark Souls, players can leave in-game messages on the ground for other players to see, constructing them from a predefined selection of words and templates; originating from this in-game messaging system, one phrase repeated in the discussion threads was 'Don’t give up, Skeleton', which seems to have become a meme in the Dark Souls community, encapsulating the spirit of the game and the camaraderie of its players."
+          },
+          {
+            "title": "4.3.5 Finding solace in community",
+            "text": "Users at times explicitly expressed their gratitude towards the online community for offering them needed emotional support during difficult life experiences. For example, one user described: 'In my past, Dark Souls helped me with my depression, and I’m also currently in the middle of a difficult period in my life and reading these stories about how the game has helped others makes me feel better. It’s encouraging to know that I’m not the only one struggling with this.'"
+          },
+          {
+            "title": "4.3.6 Communal catchphrases",
+            "text": "Throughout the discussion threads, players would routinely repeat references to certain in-game phrases, most notably, 'Don’t You Dare Go Hollow' and 'Praise the Sun'. The former is a quote of a voice line said by one of the game’s NPCs, Lauretius, whereas the latter refers to a gesture associated with the character of Solaire. Users would typically sign off their messages with such references, which appeared to serve as kinds of communal catchphrases that (1) embodied shared symbols of perseverance, hopefulness, and camaraderie, (2) fostered a sense of belonging and identity in the Dark Souls community, and (3) represented vernacular through which community members expressed peer support and words of encouragement to one another."
+          }
+        ]
+      },
+      {
+        "subtopic": "4.4 Theme 4: Gaming as self-care",
+        "content": [
+          {
+            "title": "4.4.1 Helping through difficult times",
+            "text": "Many described that Dark Souls had helped them through difficult times in their life, such as depressive or at times suicidal periods. Users frequently described how they were in the middle of a dark time in their lives when they played Dark Souls for the first time. For example, one player described how they were motivated to play the game during their struggles with depression: 'I felt that perhaps a brutally difficult, unforgiving gameplay experience could empower me with a much-needed feeling of being in control: if I’d fail in the game, it wouldn’t be due to some external factor but simply because I hadn’t paid enough attention.'"
+          },
+          {
+            "title": "4.4.2 Gaming as self-care",
+            "text": "Some players described how they would purposefully pick up the game due to its benefits for their well-being. For example, one player characterized that played Dark Souls to foster a sense of self-efficacy: 'Whenever I’m feeling melancholic, or when I’m struggling with a difficult period of my life, I start playing Dark Souls, because it gives me this feeling that if I’m able to beat this, I’m able beat other things as well.'"
+          },
+          {
+            "title": "4.4.3 Providing useful distraction",
+            "text": "More commonly, players described picking up the game due to its capacity to provide mental diversion in times of need. For example, one player reported: 'I don’t have access to therapy, but Dark Souls at least helps me cope with my depression by affording a form of escapism and something to focus my attention on.'"
+          },
+          {
+            "title": "4.4.4 Perceived therapeutic value",
+            "text": "Many players expressed a belief that while the game cannot fix all of your problems, it does have some therapeutic value. For example, one player described: 'You really need to focus on the gameplay due to its high difficulty, which can allow you to get into this mental state where you forget yourself temporarily, and this I think can have a therapeutic quality since it may help you cope with some of your struggles.'"
+          },
+          {
+            "title": "4.4.5 Games are not therapy",
+            "text": "Many players acknowledged that Dark Souls cannot be a replace for therapy, and encouraged other community members to seek professional help if needed. However, a common sentiment among players was that Dark Souls could provide a useful supplement for therapy, for example, by teaching the value of perseverance."
           }
         ]
       }
     ]
-  }
+  },
+  {
+    "topic": "5 Discussion",
+    "achievement": "images/Badges/Discussion.png",
+    "content": [
+      {
+        "text": "To reiterate, our findings illuminate how Dark Souls can have profound impacts on players’ lives, extending beyond recreation to contribute to heightened mental and emotional well-being. For example, through its challenging gameplay, players reported learning valuable lessons in perseverance and resilience, empowering them to cope with and overcome real-life struggles. Further, the game offered deep emotional and philosophical resonance, with many players connecting the in-game concept of ‘hollowing’ to their own experiences of depression and existential issues, potentially leading to self-discovery and transformative reflection. Further, players found solace and support in the community of Dark Souls, including the online player base as well as the subreddit r/darksouls itself. Many players associated the game with therapeutic value and considered it a form of self-care."
+      },
+      {
+        "text": "In this section, we discuss our main findings in relation to prior literature. Then, we address some of the limitations of our work, highlight avenues for further research, and reflect on our AI-assisted research process."
+      }
+    ],
+    "subtopics": [
+      {
+        "subtopic": "5.1 On Challenge, Resilience, Eudaimonic Well-Being, and Empowerment",
+        "content": [
+          {
+            "text": "Our findings illustrate how the highly demanding, mechanically challenging gameplay of Dark Souls could contribute to meaningful videogame experiences and mental health benefits, most notably, by cultivating resilience and perseverance that translates into players’ real lives. In turn, resilience and perseverance of effort have been linked to diminished depressive symptoms by fostering positive self-perceptions, such as a sense of personal power [99]. Our work aligns with previous findings suggesting that challenging gameplay could support players’ well-being by affording feelings of empowerment [101], or positive emotional experiences, such as a sense of competence, that players are lacking in their real lives [76]."
+          },
+          {
+            "text": "Notably, in contrast to previous research [76], we identified many instances of what resembled problem-focused coping where players described how they would translate their gameplay experiences with Dark Souls into strategies to address and find solutions to their real-life struggles, for example with depression. Such problem-focused applying of in-game lessons to real-life was commonly associated with the punishing, yet methodological and fair nature of the game’s difficulty; players described how the game was about iteratively developing the skills to overcome seemingly insurmountable obstacles, where perseverance would ultimately be rewarded by triumphant feelings of achievement, which resonated with many players as a meaningful, broader lesson on life."
+          },
+          {
+            "text": "Previously, meaningful and reflective gameplay outcomes have been associated mainly with players’ engagement with game narratives, e.g., being confronted with emotionally challenging themes, topics, or in-game choices [12, 23, 26, 57, 102]. In fact, it has been previously suggested that highly demanding gameplay could hinder the elicitation of eudaimonic outcomes, since such outcomes tend to require heightened cognitive and affective effort from the player [26]. Previous findings on games’ capacity to support players in coping with difficult life experiences likewise have predominantly associated meaning-making with narrative aspects and character interactions, although challenge aspects were briefly mentioned as possibly helping players re-frame their in-game frustrations [76]."
+          },
+          {
+            "text": "Our findings illuminate how extensive performative challenge [29] may contribute to deeply meaningful and reflective, or eudaimonic outcomes that players associate with mental health benefits, such as a heightened sense of agency and self-efficacy in their real lives. However, it remained unclear at which time point of the overall experiential trajectory players began to associate the gameplay cycle of Dark Souls with real-life lessons in resilience and perseverance. It is possible that players drew these parallels between the gameplay and their own lives only after the immediate experience of playing. Hence, when exploring certain reflective and eudaimonic—or possibly therapeutic—player experiences, we highlight the need for more longitudinal [60] approaches that account for the experiential trajectory at length, encompassing the more immediate aspects of gameplay in addition to players’ post-hoc rationalizations and meaning-making processes [e.g., 102, 103]."
+          },
+          {
+            "text": "In alignment with previous work on empowering gameplay experiences [101], our findings imply that players may in fact re-frame their in-game struggles as a meaningful path to appreciation and empowerment when these struggles are seen to align with the game’s narrative and intended themes and the players feel personally responsible for outcomes. In their discussions, players characterized the challenging gameplay of Dark Souls as punishing, yet methodological and fair, relating feelings of control and agency to the gameplay, explicitly describing how they felt personally responsible for both their failures and successes (see Section 4.4.1). Importantly, players’ descriptions of their in-game struggles were typically tied with references to the game’s perceived themes of resilience and perseverance, and with the concept of hollowing (as exemplified in Section 4.1.5). Our findings highlight hollowing—a central in-game concept that functions both as a gameplay mechanic and a narrative element with deep metaphorical significance for players (see Section 4.2.3)—as a defining feature of Dark Souls, contributing to how players derived profound meaning and mental health benefits from the game’s extensively challenging and iterative gameplay structure."
+          }
+        ]
+      },
+      {
+        "subtopic": "5.2 Games as Vehicles for Reflection and Psychological Resonance",
+        "content": [
+          {
+            "text": "Our findings illuminate how videogames may support players’ well-being by fostering reflection, which is a concept that has gained notable within HCI [8, 34]. In the context of gaming, reflection has been linked to eudaimonic outcomes such as meaningfulness, appreciation, personal growth, or perspective-transformation [23, 26, 64, 73, 89, 102, 103]."
+          },
+          {
+            "text": "Our findings align with previous research on how games may trigger players to explore, and transform, aspects of their own identity [89, 102], affording potential mental health benefits by assisting players in re-framing their own challenging experiences [76, 96]. In our data, players commonly associated the game with such re-framing of their own experiences, particularly in relation to depression. Notably, we found that Dark Souls could foster such meaningful reflection and re-framing through the close interplay of its gameplay mechanics and narrative elements, which players frequently interpreted as metaphorical representations of their own struggles with depression and existential issues."
+          },
+          {
+            "text": "The ways in which Dark Souls resonated with players and served as a reflective mirror for their personal struggles seem to align with the principles of existential transformational game design [93]. This game design framework, which draws inspiration from existential psychotherapy, outlines how players may engage with game elements that symbolize and bring to light deep, often unconscious psychological struggles [93]. Fostering such engagement has been proposed as an effective approach to design videogames that promote personal growth and psychological transformation [93]. On a similar note, our findings suggest that in Dark Souls, players’ engagement with the in-game concept of hollowing could be seen as something more than mere gameplay: to players, it may represent a symbolic processing of their own struggles, potentially leading to personal transformation, empowerment, and resilience. We propose that existential transformational game design [92, 93] may pose a fruitful framework for further exploring and harnessing of the therapeutic benefits of commercial entertainment videogames. Moreover, as a design implication, we highlight holistic integration of game aspects like narrative elements and gameplay mechanics to foster meaningful reflection, exemplified by the use of hollowing as an overarching game aspect in Dark Souls."
+          }
+        ]
+      }
+    ]
+  },
+  {
+  "topic": "6 Conclusions",
+  "achievement":"images/Badges/Conclusion.png",
+  "content": [
+    {
+      "text": "Commercial entertainment videogames have been increasingly recognized for their potential mental health benefits, yet there is a need for more in-depth exploration of the features that could make particular games effective in this sense. To address this gap, we analyzed players’ online discussions surrounding mental health and Dark Souls, focusing on how players described the game as helping them cope with what they termed “depression”. Using qualitative data collected from the r/darksouls subreddit, we conducted a thematic analysis to derive rich insights into the interplay of various game design aspects and players’ self-described mental health experiences. Our findings revealed that players felt the game’s mechanically challenging, iterative gameplay cycle as cultivating resilience and perseverance that translated into their real lives. Further, the game was frequently seen by players as a metaphorical representation of their personal struggles with depression and existential issues, affording deep psychological resonance and transformative reflections. Moreover, we found that the game’s online community could provide players support and encouragement. Players commonly considered the game as a form of self-care, finding therapeutic value in how it helped them cope with depression and difficult life experiences. Taken together, our findings highlight the in-game concept of hollowing as a defining feature of Dark Souls, effectively integrating its challenging gameplay, narrative themes, and cooperative multiplayer dynamics to holistically contribute to players’ experiences of profound mental health benefits with the game. Our study offers insights that could inform future research on eudaimonic human-technology interactions and contribute to the development of more engaging, effective, and accessible forms of digital mental health support."
+    }
+  ]
+}
+
 ]

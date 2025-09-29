@@ -31,7 +31,7 @@ function App() {
               scale: 1, }}
         className='achievement'>
           <motion.div 
-          key={paper[selectedIndex].Topic}
+          key={paper[selectedIndex].topic}
           initial={{transform: 'scale(0.8)', fontWeight:'100' }}
           animate={{transform: 'scale(1)', fontWeight:'400', transition:{ duration:0.4,  ease: [0.71, 0, 0.17, 1.25], delay: 0.1}}}
           exit={{transform: 'scale(0.8)', fontWeight:'100', transition:{ duration:1, ease: [0.71, 0, 0.17, 1.25]} }}
@@ -47,7 +47,7 @@ function App() {
         <aside className="sidebar">
           {paper.map((topic, idx) => (
           <div
-            key={topic.Topic}
+            key={topic.topic}
             style={{
               margin: '10px 0',
               cursor: 'pointer',
@@ -55,7 +55,7 @@ function App() {
             }}
             onClick={() => {window.scrollTo(0,0);setSelectedIndex(idx)}}
           >
-            {topic.Topic}
+            {topic.topic}
           </div>
         ))}
         </aside>
