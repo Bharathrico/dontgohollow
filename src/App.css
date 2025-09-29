@@ -90,6 +90,22 @@ h2
   overflow-y: auto;
 }
 
+.navbutton
+{
+  width: 100px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: black 1px solid;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.navbutton:hover
+{
+  background-color: #cdd2d2;
+}
+
 .achievementbadge
 {
   max-width: 300px;

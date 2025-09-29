@@ -88,9 +88,9 @@ export default function Content() {
             justifyContent:"space-between"
           }}
         className="pagenavigation">
-          <div className="previous" style={{opacity: selectedIndex>0 ? 1 : 0.4,}} onClick={() => {if(selectedIndex>0){window.scrollTo(0,0);
+          <div className="previous navbutton" style={{opacity: selectedIndex>0 ? 1 : 0.4,}} onClick={() => {if(selectedIndex>0){window.scrollTo(0,0);
                                                     setSelectedIndex(selectedIndex-1);}}}>Previous</div>
-          <div className="next" style={{opacity: selectedIndex<(paper.length-1) ? 1 : 0.4,}} onClick={() => {if(selectedIndex<(paper.length-1)){window.scrollTo(0,0);
+          <div className="next navbutton" style={{opacity: selectedIndex<(paper.length-1) ? 1 : 0.4,}} onClick={() => {if(selectedIndex<(paper.length-1)){window.scrollTo(0,0);
                                                 setSelectedIndex(selectedIndex+1);
                                                 if(!unlockedAchievements.has(paper[selectedIndex].Topic))
                                                 {
