@@ -3,6 +3,12 @@ import paper from '../assets/paper.json';
 import useMainStore from '../store/useMainStore';
 
 const ContentBlock = ({ block }) => {
+
+  if (block.htmlcontent) {
+    return (
+    <div dangerouslySetInnerHTML={{ __html: block.htmlcontent }} />);
+  }
+
   if (block.text) {
     return (
     <>
