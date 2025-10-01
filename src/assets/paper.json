@@ -1,5 +1,14 @@
 [
   {
+    "topic": "Getting Started",
+    "achievement": "",
+    "content": [
+      {
+        "text": "Hey folks, for my mission I chose to design a reading experience that’s free from distractions, with a small reward at the end of each session."
+      }
+    ]
+  },
+  {
     "topic": "Abstract",
     "achievement": "images/Badges/Abstract.png",
     "content": [

@@ -1,6 +1,7 @@
 import React,{ useEffect, useRef } from 'react';
 import paper from '../assets/paper.json';
 import useMainStore from '../store/useMainStore';
+import { AnimatePresence, easeInOut, motion } from "motion/react"
 
 const ContentBlock = ({ block }) => {
 
@@ -74,7 +75,6 @@ const Topic = ({ section }) => (
       <ContentBlock block={block} key={idx} />
     ))}
     {section.subtopics && section.subtopics.map((subtopic, idx) => {
-      console.log(subtopic.content)
       return (
       <Subtopic section={subtopic} key={idx} />
     )})}
@@ -86,9 +86,14 @@ export default function Content() {
   const ref = useRef();
 
   const {selectedIndex, setSelectedIndex, increaseAchievement, unlockedAchievements} = useMainStore();
-
   return (
-    <div style={{ padding: 20 }} key={selectedIndex}>
+    <AnimatePresence>
+    <motion.div 
+    initial={{ y:-100, opacity:0 }}
+          animate={{ y:0, opacity:1, transition:{delay:0.4, ease:[0.63, 0.25, 0.38, 0.82], duration:0.3}}}
+          exit={{ y:100, opacity:0 }}
+          transition={{ease:[0.63, 0.25, 0.38, 0.82]}}
+    className='readingarea' style={{ padding: 20 }} key={selectedIndex}>
         <Topic section={paper[selectedIndex]} /> 
         <div
           style={{            
@@ -104,16 +109,11 @@ export default function Content() {
                                                     setSelectedIndex(selectedIndex-1);}}}>Previous</div>
           <div className="next navbutton" style={{opacity: selectedIndex<(paper.length-1) ? 1 : 0.4,}} onClick={() => {if(selectedIndex<(paper.length-1)){window.scrollTo(0,0);
                                                 setSelectedIndex(selectedIndex+1);
-                                                if(!unlockedAchievements.has(paper[selectedIndex].topic))
-                                                {
-                                                  increaseAchievement(paper[selectedIndex].topic)
-                                                }
                                               }
-                                                else if(selectedIndex<(paper.length-1))
-                                                {
                                                   increaseAchievement(paper[selectedIndex].topic)
-                                                }}}>Next</div>
+                                                }}>Next</div>
         </div>
-     </div>
+     </motion.div>
+     </AnimatePresence>
   );
 }

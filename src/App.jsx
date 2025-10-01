@@ -3,6 +3,7 @@ import useMainStore from './store/useMainStore'
 import Content from './components/Content'
 import paper from './assets/paper.json'
 import Achievement from './components/Achievement'
+import Dialog from './components/Dialog'
 import { AnimatePresence, easeInOut, motion } from "motion/react"
 
 function formatTwoDigits(number) {
@@ -14,15 +15,18 @@ function formatTwoDigits(number) {
 
 function App() {
 
-  const {achievements, selectedIndex, setSelectedIndex,achievementUnlocked, switchAchievement } = useMainStore();
+  const {achievements, selectedIndex, setSelectedIndex,achievementUnlocked, switchDialog } = useMainStore();
   return (
     <div className="app-container">
+      <Dialog/>
       <Achievement/>
       {/* Top Navbar */}
 
       <AnimatePresence>
       <header className="navbar">
+        <h3>"Don’t You Dare Go Hollow": How Dark Souls Helps Players Cope with Depression,<br></br> a Thematic Analysis of Reddit Discussions</h3>
         <motion.div
+        onClick={()=>switchDialog()}
         initial={{ opacity: 1,
               scale: 1, }}
           animate={{ opacity: 1,
@@ -36,8 +40,9 @@ function App() {
           animate={{transform: 'scale(1)', fontWeight:'400', transition:{ duration:0.4,  ease: [0.71, 0, 0.17, 1.25], delay: 0.1}}}
           exit={{transform: 'scale(0.8)', fontWeight:'100', transition:{ duration:1, ease: [0.71, 0, 0.17, 1.25]} }}
           >{formatTwoDigits(achievements)}</motion.div>
-          /
-          <div>20</div>
+          Rewards
+          {/* /
+          <div>20</div> */}
         </motion.div>
       </header>
       </AnimatePresence>

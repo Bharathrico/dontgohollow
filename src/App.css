@@ -39,13 +39,19 @@ h2
   height: 100px;
   background: #F1F2F2;
   border: 1px solid black;
-  color: white;
+  color: rgb(0, 0, 0);
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: flex-end;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
   padding-right: 3rem;
+  padding-left: 1rem;
   z-index: 8;
+  h3
+  {
+    font-kerning: 2px;
+    font-weight: 200;
+  }
 }
 
 .achievement
@@ -59,6 +65,12 @@ h2
   border-radius:40px;
   border: black solid 1px;
   z-index: 10;
+  cursor: pointer;
+}
+
+.achievement:hover
+{
+  background-color: #cdd2d2;
 }
 
 /* Layout wrapper (below navbar) */
@@ -107,14 +119,24 @@ h2
   background-color: #cdd2d2;
 }
 
+
+
 .achievementbadge
 {
   max-width: 300px;
   width: 100%;
    z-index: 9;
    /* animation: aUnlocked 500ms forwards;
-  animation-timing-function: cubic-bezier(0.71, 0, 0.17, 1.25); */
-  
+  animation-timing-function: cubic-bezier(0.71, 0, 0.17, 1.25); */ 
+}
+
+.readingarea
+{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 50vh;
 }
 
 @keyframes aUnlocked {
